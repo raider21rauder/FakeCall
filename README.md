@@ -2,11 +2,15 @@
 
 <div align="center">
 
-![FakeCall Logo](https://github.com/DDOneApps/FakeCall/blob/main/1831922.svg) 
+<img src="https://github.com/DDOneApps/FakeCall/blob/main/1831922.svg" width=20% title="logo" />
+
+<p>
 
 [![GitHub stars](https://img.shields.io/github/stars/DDOneApps/FakeCall?style=for-the-badge)](https://github.com/DDOneApps/FakeCall/stargazers) [![GitHub forks](https://img.shields.io/github/forks/DDOneApps/FakeCall?style=for-the-badge)](https://github.com/DDOneApps/FakeCall/network) [![GitHub issues](https://img.shields.io/github/issues/DDOneApps/FakeCall?style=for-the-badge)](https://github.com/DDOneApps/FakeCall/issues)
 
 [![GitHub license](https://img.shields.io/badge/license-No%20License%20Specified-red?style=for-the-badge)](LICENSE) <!-- TODO: Add a LICENSE file and update badge -->
+
+</p>
 
 **An open-source Android application to simulate incoming calls, featuring a modern Material 3 UI with dynamic Monet support.**
 
@@ -16,7 +20,11 @@
 
 This is my Fake Call application. Unlike other apps that merely mock a UI, this app integrates directly with the Android Telecom Framework to provide an indistinguishable calling experience. It has many features to make the call as real as possible.
 
+<p align=center>
+  
 ## Features
+
+</p>
 
 -  **Original Dialer:** FakeCall uses your real Phone app to simulate the incoming Call by creating [a Phone Account in android's TelecomManager](https://developer.android.com/reference/android/telecom/TelecomManager)
 -  **Customizable:** The app lets you customize the name of the fake phone account in the settings to match your real service provider
@@ -102,7 +110,7 @@ You can run various Gradle tasks directly from Android Studio (via the Gradle to
 3.  Use the `Run` button in Android Studio to quickly deploy and test changes on a connected device or emulator.
 4.  Utilize the Gradle tool window for specific build tasks, dependency management, and running tests.
 
-## 🧪 Testing
+##  Testing
 
 The project is expected to follow standard Android testing practices.
 
